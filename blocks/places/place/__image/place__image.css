@@ -1,0 +1,16 @@
+.place__image {
+    padding: 0;
+    margin: 0;
+    max-width: 97.5%;
+    max-height: 97.5%;
+    min-width: none;
+}
+
+@media screen and (max-width: 615px) {
+    .place__image {
+        padding: 0;
+        margin: 0;
+        max-width: 100%;
+        max-height: 100%;
+    }
+}
