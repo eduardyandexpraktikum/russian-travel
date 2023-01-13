@@ -2,8 +2,8 @@
 @import url(blocks/page/__content-area/page__content-area.css);
 @import url(blocks/header/header.css);
 @import url(blocks/header/__language-link/header__language-link.css);
+@import url(blocks/header/__language-link/_selected/header__language-link_selected_on.css);
 @import url(blocks/header/__language/header__language.css);
-@import url(blocks/header/__language/_selected/header__language_selected_on.css);
 @import url(blocks/header/__logo/header__logo.css);
 @import url(blocks/lead/lead.css);
 @import url(blocks/lead/__caption/lead__caption.css);
