@@ -1,0 +1,21 @@
+.place {
+    max-width: 984px;
+    margin: 0px auto 80px;
+    padding: 0px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 48px 16px;
+    row-gap: 48px;
+}
+
+.place:nth-of-type(5) {
+    margin-bottom: 0px;
+}
+
+@media screen and (max-width: 615px) {
+    .place {
+        margin: 0px auto 66px;
+        grid-template-columns: 1fr;
+        row-gap: 32px;
+    }
+}

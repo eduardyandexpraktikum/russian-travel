@@ -1,0 +1,21 @@
+.cover__overlay {
+    background: rgba(42, 44, 47, .3);
+    position: absolute;
+    height: 740px;
+    width: 100%;
+    left: 0;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 1280px) {
+    .cover__overlay {
+        height: calc(-60px + 62.5vw);
+    }
+}
+
+@media screen and (max-width: 1080px) {
+    .cover__overlay {
+        height: calc(62.5vw);
+    }
+}
